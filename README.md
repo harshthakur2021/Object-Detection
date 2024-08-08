@@ -46,8 +46,10 @@ The Thief Detection project leverages the power of Next.js, a React framework fo
    ```sh
    git clone https://github.com/yourusername/Object-Detection-nextjs.git
    cd Object-Detection-nextjs
+   ```
 2. Install dependencies:
-```sh
-npm install
+  ```sh
+  npm install
+  ```
 
 3. Demo Link -: https://object-detection-eta.vercel.app/
