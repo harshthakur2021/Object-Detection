@@ -52,4 +52,4 @@ The Thief Detection project leverages the power of Next.js, a React framework fo
     npm install
   ```
 
-3. Demo Link -: https://object-detection-eta.vercel.app/
+3. Demo Link -:(https://thief-detection.vercel.app/)
