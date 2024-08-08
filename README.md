@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Thief Detection Using NextJs And TensorFlow.js
 
-First, run the development server:
+The Thief Detection project leverages the power of Next.js, a React framework for server-side rendering, and TensorFlow.js, a JavaScript library for training and deploying machine learning models, to create a real-time thief detection system. This web application is designed to monitor video feeds and identify suspicious activities or individuals, providing enhanced security measures for homes and businesses.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-Time Video Monitoring:**
+  - Live streaming from IP cameras or webcams
+  - Video playback for reviewing recorded footage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Machine Learning-Based Detection:**
+  - Object detection using TensorFlow.js
+  - Suspicious activity identification
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Alert System:**
+  - Instant notifications via email, SMS, or push notifications
+  - Alert dashboard for managing and viewing alerts
 
-## Learn More
+- **User Authentication and Access Control:**
+  - Secure login and user authentication
+  - Role-based access control
 
-To learn more about Next.js, take a look at the following resources:
+- **Data Management:**
+  - Event logging with detailed metadata
+  - Secure storage for video footage and logs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **User-Friendly Interface:**
+  - Intuitive dashboard for monitoring and settings
+  - Customizable detection sensitivity and alert criteria
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Scalability and Performance:**
+  - Efficient processing for multiple video feeds
+  - Scalable architecture for handling high-resolution feeds
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend:**
+  - [Next.js](https://nextjs.org/): For server-side rendering and static site generation
+  - [React.js](https://reactjs.org/): For building dynamic user interfaces
+  - [TensorFlow.js](https://www.tensorflow.org/js): For client-side machine learning
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/Object-Detection-nextjs.git
+   cd Object-Detection-nextjs
+2. Install dependencies:
+```sh
+npm install
+
+3. Demo Link -: https://object-detection-eta.vercel.app/
